@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target client_4[0m
+[35m[1mConsolidate compiler generated dependencies of target server_4[0m
+[ 50%] Built target client_4
+[ 75%] [32mBuilding CXX object CMakeFiles/server_4.dir/src/add_four_ints_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable server_4[0m
+[100%] Built target server_4
+-- Install configuration: ""
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/lib/CPP_SrvClient_FourInts/server_4
+-- Set runtime path of "/home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/lib/CPP_SrvClient_FourInts/server_4" to ""
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/lib/CPP_SrvClient_FourInts/client_4
+-- Set runtime path of "/home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/lib/CPP_SrvClient_FourInts/client_4" to ""
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/ament_index/resource_index/package_run_dependencies/CPP_SrvClient_FourInts
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/ament_index/resource_index/parent_prefix_path/CPP_SrvClient_FourInts
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/environment/ament_prefix_path.sh
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/environment/ament_prefix_path.dsv
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/environment/path.sh
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/environment/path.dsv
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/local_setup.bash
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/local_setup.sh
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/local_setup.zsh
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/local_setup.dsv
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/package.dsv
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/ament_index/resource_index/packages/CPP_SrvClient_FourInts
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/cmake/CPP_SrvClient_FourIntsConfig.cmake
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/cmake/CPP_SrvClient_FourIntsConfig-version.cmake
+-- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/package.xml

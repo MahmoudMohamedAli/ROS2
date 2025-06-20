@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000372] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000417] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000436] (cpp_srvcli_threeints) JobQueued: {'identifier': 'cpp_srvcli_threeints', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/mahmoud/ros2_ws3/install/tutorial_interfaces')])}
+[0.000516] (cpp_srvcli_threeints) JobStarted: {'identifier': 'cpp_srvcli_threeints'}
+[0.058195] (cpp_srvcli_threeints) JobProgress: {'identifier': 'cpp_srvcli_threeints', 'progress': 'cmake'}
+[0.059212] (cpp_srvcli_threeints) Command: {'cmd': ['/usr/bin/cmake', '/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints', '-DCMAKE_INSTALL_PREFIX=/home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints'], 'cwd': '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mahmoud'), ('GIT_ASKPASS', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahmoud'), ('OLDPWD', '/home/mahmoud/ros2_ws3/src'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-421d5c5e-5ff8-4897-a0d9-16dccb6e4200.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahmoud'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/513_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/home/mahmoud/.cargo/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/Pthyon_Install/Installtion/Scripts/:/mnt/d/Pthyon_Install/Installtion/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Golden-Tech/Downloads/curl-8.7.1_7-win64-mingw/curl-8.7.1_7-win64-mingw/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/learn-in-depth/learn-in-depth_AutosarConfigurator_setup:/mnt/c/Users/Golden-Tech/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Golden-Tech/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS_Install/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/mahmoud/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f3bf5f19e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install/tutorial_interfaces:/home/mahmoud/ros2_ws3/install/cpp_srvcli:/home/mahmoud/ros2_ws3/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install/tutorial_interfaces:/home/mahmoud/ros2_ws3/install/cpp_srvcli:/home/mahmoud/ros2_ws3/install/cpp_pubsub:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.070672] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099125] (-) TimerEvent: {}
+[0.178542] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199547] (-) TimerEvent: {}
+[0.294467] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.296683] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.299698] (-) TimerEvent: {}
+[0.301622] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.310705] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.321900] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.349721] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.350854] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.401149] (-) TimerEvent: {}
+[0.503972] (-) TimerEvent: {}
+[0.604277] (-) TimerEvent: {}
+[0.705578] (-) TimerEvent: {}
+[0.806803] (-) TimerEvent: {}
+[0.907115] (-) TimerEvent: {}
+[1.008022] (-) TimerEvent: {}
+[1.109089] (-) TimerEvent: {}
+[1.210327] (-) TimerEvent: {}
+[1.311643] (-) TimerEvent: {}
+[1.412599] (-) TimerEvent: {}
+[1.513619] (-) TimerEvent: {}
+[1.614279] (-) TimerEvent: {}
+[1.714753] (-) TimerEvent: {}
+[1.815245] (-) TimerEvent: {}
+[1.915658] (-) TimerEvent: {}
+[2.016056] (-) TimerEvent: {}
+[2.116385] (-) TimerEvent: {}
+[2.216781] (-) TimerEvent: {}
+[2.317173] (-) TimerEvent: {}
+[2.417498] (-) TimerEvent: {}
+[2.517969] (-) TimerEvent: {}
+[2.618383] (-) TimerEvent: {}
+[2.719560] (-) TimerEvent: {}
+[2.820322] (-) TimerEvent: {}
+[2.921068] (-) TimerEvent: {}
+[3.021404] (-) TimerEvent: {}
+[3.121952] (-) TimerEvent: {}
+[3.222426] (-) TimerEvent: {}
+[3.325259] (-) TimerEvent: {}
+[3.425916] (-) TimerEvent: {}
+[3.526896] (-) TimerEvent: {}
+[3.594512] (cpp_srvcli_threeints) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.627897] (-) TimerEvent: {}
+[3.636157] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[3.667931] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.729686] (-) TimerEvent: {}
+[3.753674] (cpp_srvcli_threeints) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.754006] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.754069] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.755393] (cpp_srvcli_threeints) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.756880] (cpp_srvcli_threeints) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.756948] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.758032] (cpp_srvcli_threeints) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.759851] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.775663] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Generating done\n'}
+[3.780486] (cpp_srvcli_threeints) StdoutLine: {'line': b'-- Build files have been written to: /home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints\n'}
+[3.786643] (cpp_srvcli_threeints) CommandEnded: {'returncode': 0}
+[3.787503] (cpp_srvcli_threeints) JobProgress: {'identifier': 'cpp_srvcli_threeints', 'progress': 'build'}
+[3.789438] (cpp_srvcli_threeints) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints', '--', '-j12', '-l12'], 'cwd': '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mahmoud'), ('GIT_ASKPASS', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahmoud'), ('OLDPWD', '/home/mahmoud/ros2_ws3/src'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-421d5c5e-5ff8-4897-a0d9-16dccb6e4200.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahmoud'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/513_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/home/mahmoud/.cargo/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/Pthyon_Install/Installtion/Scripts/:/mnt/d/Pthyon_Install/Installtion/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Golden-Tech/Downloads/curl-8.7.1_7-win64-mingw/curl-8.7.1_7-win64-mingw/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/learn-in-depth/learn-in-depth_AutosarConfigurator_setup:/mnt/c/Users/Golden-Tech/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Golden-Tech/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS_Install/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/mahmoud/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f3bf5f19e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install/tutorial_interfaces:/home/mahmoud/ros2_ws3/install/cpp_srvcli:/home/mahmoud/ros2_ws3/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install/tutorial_interfaces:/home/mahmoud/ros2_ws3/install/cpp_srvcli:/home/mahmoud/ros2_ws3/install/cpp_pubsub:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[3.829933] (-) TimerEvent: {}
+[3.830915] (cpp_srvcli_threeints) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client_3.dir/src/add_three_ints_client.cpp.o\x1b[0m\n'}
+[3.831052] (cpp_srvcli_threeints) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server_3.dir/src/add_three_ints_server.cpp.o\x1b[0m\n'}
+[3.930167] (-) TimerEvent: {}
+[4.030527] (-) TimerEvent: {}
+[4.131457] (-) TimerEvent: {}
+[4.234349] (-) TimerEvent: {}
+[4.337208] (-) TimerEvent: {}
+[4.440153] (-) TimerEvent: {}
+[4.543031] (-) TimerEvent: {}
+[4.645894] (-) TimerEvent: {}
+[4.748794] (-) TimerEvent: {}
+[4.851732] (-) TimerEvent: {}
+[4.952572] (-) TimerEvent: {}
+[5.052945] (-) TimerEvent: {}
+[5.155009] (-) TimerEvent: {}
+[5.256526] (-) TimerEvent: {}
+[5.359429] (-) TimerEvent: {}
+[5.460884] (-) TimerEvent: {}
+[5.563764] (-) TimerEvent: {}
+[5.666380] (-) TimerEvent: {}
+[5.769321] (-) TimerEvent: {}
+[5.872235] (-) TimerEvent: {}
+[5.972792] (-) TimerEvent: {}
+[6.074194] (-) TimerEvent: {}
+[6.177087] (-) TimerEvent: {}
+[6.279725] (-) TimerEvent: {}
+[6.382289] (-) TimerEvent: {}
+[6.481283] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.481467] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_client.cpp:19:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.481541] (cpp_srvcli_threeints) StderrLine: {'line': b'   19 |   auto client = node->create_client<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::AddThreeInts>("add_three_ints");\n'}
+[6.481597] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.481649] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[6.481699] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_client.cpp:19:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[6.481750] (cpp_srvcli_threeints) StderrLine: {'line': b'   19 |   auto client = node->\x1b[01;31m\x1b[Kcreate_client<example_interfaces::srv::AddThreeInts>\x1b[m\x1b[K("add_three_ints");\n'}
+[6.481800] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.481848] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_client.cpp:19:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_client<<expression error> >(const char [15])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.481899] (cpp_srvcli_threeints) StderrLine: {'line': b'   19 |   auto client = \x1b[01;31m\x1b[Knode->create_client<example_interfaces::srv::AddThreeInts>("add_three_ints")\x1b[m\x1b[K;\n'}
+[6.482221] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.482299] (-) TimerEvent: {}
+[6.482403] (cpp_srvcli_threeints) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.482471] (cpp_srvcli_threeints) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.482523] (cpp_srvcli_threeints) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.482571] (cpp_srvcli_threeints) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[6.482618] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.482675] (cpp_srvcli_threeints) StderrLine: {'line': b'  252 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[6.482722] (cpp_srvcli_threeints) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.482767] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.482818] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_client.cpp:19:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.482864] (cpp_srvcli_threeints) StderrLine: {'line': b'   19 |   auto client = \x1b[01;31m\x1b[Knode->create_client<example_interfaces::srv::AddThreeInts>("add_three_ints")\x1b[m\x1b[K;\n'}
+[6.482909] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.482954] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_client.cpp:21:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[6.483000] (cpp_srvcli_threeints) StderrLine: {'line': b'   21 |   auto request = std::\x1b[01;31m\x1b[Kmake_shared<example_interfaces::srv::AddThreeInts::Request>\x1b[m\x1b[K();\n'}
+[6.483075] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.483125] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_client.cpp:21:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<example_interfaces>()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.483173] (cpp_srvcli_threeints) StderrLine: {'line': b'   21 |   auto request = \x1b[01;31m\x1b[Kstd::make_shared<example_interfaces::srv::AddThreeInts::Request>()\x1b[m\x1b[K;\n'}
+[6.483219] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[6.483264] (cpp_srvcli_threeints) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[6.483309] (cpp_srvcli_threeints) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[6.483355] (cpp_srvcli_threeints) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[6.483400] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.483467] (cpp_srvcli_threeints) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[6.483518] (cpp_srvcli_threeints) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.483569] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.585022] (-) TimerEvent: {}
+[6.596708] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:7:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.596873] (cpp_srvcli_threeints) StderrLine: {'line': b'    7 |   const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[6.596934] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.596985] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[6.597034] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:7:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.597099] (cpp_srvcli_threeints) StderrLine: {'line': b'    7 |   const std::shared_ptr<example_interfaces::srv::AddThreeInts::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[6.597146] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.601826] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:7:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.601949] (cpp_srvcli_threeints) StderrLine: {'line': b'    7 |   const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[6.602004] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.602054] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[6.602103] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:7:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.602154] (cpp_srvcli_threeints) StderrLine: {'line': b'    7 |   const std::shared_ptr<example_interfaces::srv::AddThreeInts::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[6.602218] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.607036] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:7:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.607191] (cpp_srvcli_threeints) StderrLine: {'line': b'    7 |   const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[6.607252] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.607304] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[6.607367] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:7:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.607451] (cpp_srvcli_threeints) StderrLine: {'line': b'    7 |   const std::shared_ptr<example_interfaces::srv::AddThreeInts::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[6.607504] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.607558] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:7:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[6.607613] (cpp_srvcli_threeints) StderrLine: {'line': b'    7 |   const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<example_interfaces::srv::AddThreeInts::Request> request,\n'}
+[6.607661] (cpp_srvcli_threeints) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.612334] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:7:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.612442] (cpp_srvcli_threeints) StderrLine: {'line': b'    7 |   const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[6.612494] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.612543] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[6.612592] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:6:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Khandle_add_three_ints\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[6.612642] (cpp_srvcli_threeints) StderrLine: {'line': b'    6 | void \x1b[01;31m\x1b[Khandle_add_three_ints\x1b[m\x1b[K(\n'}
+[6.612690] (cpp_srvcli_threeints) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.612738] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:7:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.612787] (cpp_srvcli_threeints) StderrLine: {'line': b'    7 |   \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<example_interfaces::srv::AddThreeInts::Request> request,\n'}
+[6.612844] (cpp_srvcli_threeints) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.616978] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:8:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.617101] (cpp_srvcli_threeints) StderrLine: {'line': b'    8 |   std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Response> response)\n'}
+[6.617167] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.617220] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[6.617270] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:8:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.617321] (cpp_srvcli_threeints) StderrLine: {'line': b'    8 |   std::shared_ptr<example_interfaces::srv::AddThreeInts::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[6.617376] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.621795] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.621911] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:21:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.621981] (cpp_srvcli_threeints) StderrLine: {'line': b'   21 |   auto service = node->create_service<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::AddThreeInts>(\n'}
+[6.622033] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.622083] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[6.622132] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:21:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[6.622181] (cpp_srvcli_threeints) StderrLine: {'line': b'   21 |   auto service = node->\x1b[01;31m\x1b[Kcreate_service<example_interfaces::srv::AddThreeInts>\x1b[m\x1b[K(\n'}
+[6.622291] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.627882] (cpp_srvcli_threeints) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints/src/add_three_ints_server.cpp:22:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khandle_add_three_ints\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.628029] (cpp_srvcli_threeints) StderrLine: {'line': b'   22 |     "add_three_ints", &\x1b[01;31m\x1b[Khandle_add_three_ints\x1b[m\x1b[K);\n'}
+[6.628090] (cpp_srvcli_threeints) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.686729] (-) TimerEvent: {}
+[6.787116] (-) TimerEvent: {}
+[6.888278] (-) TimerEvent: {}
+[6.907885] (cpp_srvcli_threeints) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client_3.dir/build.make:76: CMakeFiles/client_3.dir/src/add_three_ints_client.cpp.o] Error 1\n'}
+[6.908178] (cpp_srvcli_threeints) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client_3.dir/all] Error 2\n'}
+[6.908284] (cpp_srvcli_threeints) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.989854] (-) TimerEvent: {}
+[7.049868] (cpp_srvcli_threeints) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server_3.dir/build.make:76: CMakeFiles/server_3.dir/src/add_three_ints_server.cpp.o] Error 1\n'}
+[7.050282] (cpp_srvcli_threeints) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server_3.dir/all] Error 2\n'}
+[7.050399] (cpp_srvcli_threeints) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.052477] (cpp_srvcli_threeints) CommandEnded: {'returncode': 2}
+[7.060235] (cpp_srvcli_threeints) JobEnded: {'identifier': 'cpp_srvcli_threeints', 'rc': 2}
+[7.070957] (-) EventReactorShutdown: {}

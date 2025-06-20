@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.000147] (-) JobUnselected: {'identifier': 'CPP_SrvClient_FourInts'}
+[0.000198] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000218] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000233] (-) JobUnselected: {'identifier': 'cpp_srvcli_threeints'}
+[0.000246] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000262] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000278] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.012900] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.014000] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.014755] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahmoud/ros2_ws3/build/more_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/mahmoud/ros2_ws3/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mahmoud'), ('GIT_ASKPASS', '/home/mahmoud/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/mahmoud/ros2_ws3/install/more_interfaces/lib:/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mahmoud'), ('OLDPWD', '/home/mahmoud/ros2_ws3/src'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-09350475-cdfb-4a62-8ae3-333ffd0ad872.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mahmoud/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mahmoud/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahmoud'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/566_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mahmoud/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/bin/remote-cli:/home/mahmoud/.cargo/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/Pthyon_Install/Installtion/Scripts/:/mnt/d/Pthyon_Install/Installtion/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Golden-Tech/Downloads/curl-8.7.1_7-win64-mingw/curl-8.7.1_7-win64-mingw/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/learn-in-depth/learn-in-depth_AutosarConfigurator_setup:/mnt/c/Users/Golden-Tech/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Golden-Tech/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS_Install/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/mahmoud/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f3bf5f19e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install/more_interfaces:/home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts:/home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints:/home/mahmoud/ros2_ws3/install/tutorial_interfaces:/home/mahmoud/ros2_ws3/install/cpp_srvcli:/home/mahmoud/ros2_ws3/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mahmoud/ros2_ws3/build/more_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages:/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install/more_interfaces:/home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts:/home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints:/home/mahmoud/ros2_ws3/install/tutorial_interfaces:/home/mahmoud/ros2_ws3/install/cpp_srvcli:/home/mahmoud/ros2_ws3/install/cpp_pubsub:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099058] (-) TimerEvent: {}
+[0.125368] (more_interfaces) StdoutLine: {'line': b'[  2%] Built target more_interfaces__cpp\n'}
+[0.127092] (more_interfaces) StdoutLine: {'line': b'[ 11%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.141872] (more_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[0.154074] (more_interfaces) StdoutLine: {'line': b'[ 20%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.154930] (more_interfaces) StdoutLine: {'line': b'[ 28%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.157102] (more_interfaces) StdoutLine: {'line': b'[ 45%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.157258] (more_interfaces) StdoutLine: {'line': b'[ 45%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.158786] (more_interfaces) StdoutLine: {'line': b'[ 54%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.159144] (more_interfaces) StdoutLine: {'line': b'[ 62%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.169547] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber_address_book\x1b[0m\n'}
+[0.181058] (more_interfaces) StdoutLine: {'line': b'[ 62%] Built target more_interfaces\n'}
+[0.184937] (more_interfaces) StdoutLine: {'line': b'[ 68%] Built target publish_address_book\n'}
+[0.186066] (more_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_address_book.dir/src/subscriber_address_book.cpp.o\x1b[0m\n'}
+[0.199136] (-) TimerEvent: {}
+[0.202405] (more_interfaces) StdoutLine: {'line': b'[ 74%] Built target more_interfaces__py\n'}
+[0.229411] (more_interfaces) StdoutLine: {'line': b'[ 80%] Built target more_interfaces__rosidl_generator_py\n'}
+[0.257098] (more_interfaces) StdoutLine: {'line': b'[ 91%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.257396] (more_interfaces) StdoutLine: {'line': b'[ 91%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.258450] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.299257] (-) TimerEvent: {}
+[0.388500] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.389157] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[0.389453] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[0.389607] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[0.392374] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[0.393302] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[0.399361] (-) TimerEvent: {}
+[0.416156] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[0.499452] (-) TimerEvent: {}
+[0.599811] (-) TimerEvent: {}
+[0.700170] (-) TimerEvent: {}
+[0.800480] (-) TimerEvent: {}
+[0.900847] (-) TimerEvent: {}
+[1.001319] (-) TimerEvent: {}
+[1.101677] (-) TimerEvent: {}
+[1.202055] (-) TimerEvent: {}
+[1.302386] (-) TimerEvent: {}
+[1.402736] (-) TimerEvent: {}
+[1.503214] (-) TimerEvent: {}
+[1.603597] (-) TimerEvent: {}
+[1.703966] (-) TimerEvent: {}
+[1.804326] (-) TimerEvent: {}
+[1.904691] (-) TimerEvent: {}
+[2.004955] (-) TimerEvent: {}
+[2.105275] (-) TimerEvent: {}
+[2.205598] (-) TimerEvent: {}
+[2.305990] (-) TimerEvent: {}
+[2.406316] (-) TimerEvent: {}
+[2.506649] (-) TimerEvent: {}
+[2.606977] (-) TimerEvent: {}
+[2.707280] (-) TimerEvent: {}
+[2.807603] (-) TimerEvent: {}
+[2.907953] (-) TimerEvent: {}
+[3.008323] (-) TimerEvent: {}
+[3.108630] (-) TimerEvent: {}
+[3.208940] (-) TimerEvent: {}
+[3.309266] (-) TimerEvent: {}
+[3.409591] (-) TimerEvent: {}
+[3.509952] (-) TimerEvent: {}
+[3.610318] (-) TimerEvent: {}
+[3.710670] (-) TimerEvent: {}
+[3.811029] (-) TimerEvent: {}
+[3.911332] (-) TimerEvent: {}
+[4.011676] (-) TimerEvent: {}
+[4.112039] (-) TimerEvent: {}
+[4.212312] (-) TimerEvent: {}
+[4.312651] (-) TimerEvent: {}
+[4.413055] (-) TimerEvent: {}
+[4.513482] (-) TimerEvent: {}
+[4.613970] (-) TimerEvent: {}
+[4.714396] (-) TimerEvent: {}
+[4.814736] (-) TimerEvent: {}
+[4.915088] (-) TimerEvent: {}
+[5.015471] (-) TimerEvent: {}
+[5.115790] (-) TimerEvent: {}
+[5.216167] (-) TimerEvent: {}
+[5.316558] (-) TimerEvent: {}
+[5.416909] (-) TimerEvent: {}
+[5.517296] (-) TimerEvent: {}
+[5.617624] (-) TimerEvent: {}
+[5.717970] (-) TimerEvent: {}
+[5.818302] (-) TimerEvent: {}
+[5.918663] (-) TimerEvent: {}
+[6.018995] (-) TimerEvent: {}
+[6.119317] (-) TimerEvent: {}
+[6.219629] (-) TimerEvent: {}
+[6.319971] (-) TimerEvent: {}
+[6.420302] (-) TimerEvent: {}
+[6.520603] (-) TimerEvent: {}
+[6.620951] (-) TimerEvent: {}
+[6.721360] (-) TimerEvent: {}
+[6.821675] (-) TimerEvent: {}
+[6.922025] (-) TimerEvent: {}
+[7.022384] (-) TimerEvent: {}
+[7.122702] (-) TimerEvent: {}
+[7.223002] (-) TimerEvent: {}
+[7.323305] (-) TimerEvent: {}
+[7.423682] (-) TimerEvent: {}
+[7.523998] (-) TimerEvent: {}
+[7.624357] (-) TimerEvent: {}
+[7.724706] (-) TimerEvent: {}
+[7.825032] (-) TimerEvent: {}
+[7.925371] (-) TimerEvent: {}
+[8.025729] (-) TimerEvent: {}
+[8.126358] (-) TimerEvent: {}
+[8.226766] (-) TimerEvent: {}
+[8.245412] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_address_book\x1b[0m\n'}
+[8.326911] (-) TimerEvent: {}
+[8.427282] (-) TimerEvent: {}
+[8.527709] (-) TimerEvent: {}
+[8.628051] (-) TimerEvent: {}
+[8.646366] (more_interfaces) StdoutLine: {'line': b'[100%] Built target subscriber_address_book\n'}
+[8.657502] (more_interfaces) CommandEnded: {'returncode': 0}
+[8.658700] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[8.666889] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mahmoud/ros2_ws3/build/more_interfaces'], 'cwd': '/home/mahmoud/ros2_ws3/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mahmoud'), ('GIT_ASKPASS', '/home/mahmoud/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/mahmoud/ros2_ws3/install/more_interfaces/lib:/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mahmoud'), ('OLDPWD', '/home/mahmoud/ros2_ws3/src'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-09350475-cdfb-4a62-8ae3-333ffd0ad872.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mahmoud/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mahmoud/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahmoud'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/566_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mahmoud/.vscode-server/bin/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/bin/remote-cli:/home/mahmoud/.cargo/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/Pthyon_Install/Installtion/Scripts/:/mnt/d/Pthyon_Install/Installtion/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Golden-Tech/Downloads/curl-8.7.1_7-win64-mingw/curl-8.7.1_7-win64-mingw/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/learn-in-depth/learn-in-depth_AutosarConfigurator_setup:/mnt/c/Users/Golden-Tech/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Golden-Tech/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS_Install/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/mahmoud/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f3bf5f19e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install/more_interfaces:/home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts:/home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints:/home/mahmoud/ros2_ws3/install/tutorial_interfaces:/home/mahmoud/ros2_ws3/install/cpp_srvcli:/home/mahmoud/ros2_ws3/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mahmoud/ros2_ws3/build/more_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages:/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/mahmoud/ros2_ws3/install/more_interfaces:/home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts:/home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints:/home/mahmoud/ros2_ws3/install/tutorial_interfaces:/home/mahmoud/ros2_ws3/install/cpp_srvcli:/home/mahmoud/ros2_ws3/install/cpp_pubsub:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[8.677476] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.677871] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[8.678114] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[8.678436] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[8.678734] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.678820] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[8.679035] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c\n'}
+[8.679189] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h\n'}
+[8.679462] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h\n'}
+[8.679544] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[8.679598] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h\n'}
+[8.679649] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[8.679706] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[8.680760] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[8.680953] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[8.681198] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[8.681434] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[8.681635] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[8.681699] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.682663] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.683006] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[8.683203] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[8.683529] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[8.683922] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[8.684178] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[8.684377] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.684638] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.685092] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[8.685219] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[8.685452] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[8.685636] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[8.685872] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[8.686081] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.hpp\n'}
+[8.686163] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[8.686224] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[8.686274] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.686350] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp\n'}
+[8.686401] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[8.686773] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[8.686968] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.687030] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[8.687381] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.687444] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps\n'}
+[8.688313] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.688460] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[8.688695] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[8.688916] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[8.689171] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.689244] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[8.689728] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.690745] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.692485] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[8.692606] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[8.692677] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info\n'}
+[8.692728] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.692776] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.692823] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.692947] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.693090] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces\n'}
+[8.693240] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py\n'}
+[8.693449] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.693785] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.693893] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so\n'}
+[8.693993] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.694053] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.694104] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.694186] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg\n'}
+[8.694240] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py\n'}
+[8.694289] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py\n'}
+[8.694336] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c\n'}
+[8.694384] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.722600] (more_interfaces) StdoutLine: {'line': b"Listing '/home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...\n"}
+[8.722763] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py'...\n"}
+[8.722823] (more_interfaces) StdoutLine: {'line': b"Listing '/home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...\n"}
+[8.727190] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.727983] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.728094] (-) TimerEvent: {}
+[8.728758] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.729521] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so\n'}
+[8.729704] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[8.729778] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[8.730901] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[8.731350] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/lib/more_interfaces/subscriber_address_book\n'}
+[8.734093] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/more_interfaces/lib/more_interfaces/subscriber_address_book" to ""\n'}
+[8.734373] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[8.734450] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[8.734949] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[8.735040] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.735487] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[8.735573] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[8.736073] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[8.736210] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[8.736268] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[8.736318] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[8.736796] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[8.737222] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[8.737844] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.738034] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.738484] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.738577] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.739316] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.739546] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.739952] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.740169] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.740386] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.740950] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.741165] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.741558] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.741743] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.742190] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.742461] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.742818] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.742976] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.743162] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.743331] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.743484] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.743635] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.743880] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.743947] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.743998] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.744054] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[8.744103] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[8.744151] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[8.745702] (more_interfaces) CommandEnded: {'returncode': 0}
+[8.771541] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[8.772661] (-) EventReactorShutdown: {}

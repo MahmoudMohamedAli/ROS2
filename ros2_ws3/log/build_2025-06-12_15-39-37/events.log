@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000171] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000437] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000501] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.007076] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.007669] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.008662] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahmoud/ros2_ws3/build/cpp_srvcli', '--', '-j12', '-l12'], 'cwd': '/home/mahmoud/ros2_ws3/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mahmoud'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mahmoud'), ('OLDPWD', '/home/mahmoud'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahmoud'), ('NAME', 'DESKTOP-I22T2P2'), ('WSL_INTEROP', '/run/WSL/315_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mahmoud/.cargo/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/Pthyon_Install/Installtion/Scripts/:/mnt/d/Pthyon_Install/Installtion/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Golden-Tech/Downloads/curl-8.7.1_7-win64-mingw/curl-8.7.1_7-win64-mingw/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/learn-in-depth/learn-in-depth_AutosarConfigurator_setup:/mnt/c/Users/Golden-Tech/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Golden-Tech/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS_Install/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mahmoud/ros2_ws3/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054396] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[0.059101] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.098856] (-) TimerEvent: {}
+[0.199243] (-) TimerEvent: {}
+[0.299586] (-) TimerEvent: {}
+[0.400127] (-) TimerEvent: {}
+[0.500934] (-) TimerEvent: {}
+[0.601417] (-) TimerEvent: {}
+[0.702196] (-) TimerEvent: {}
+[0.802722] (-) TimerEvent: {}
+[0.903004] (-) TimerEvent: {}
+[1.006417] (-) TimerEvent: {}
+[1.108976] (-) TimerEvent: {}
+[1.209367] (-) TimerEvent: {}
+[1.311404] (-) TimerEvent: {}
+[1.413967] (-) TimerEvent: {}
+[1.515621] (-) TimerEvent: {}
+[1.617616] (-) TimerEvent: {}
+[1.720091] (-) TimerEvent: {}
+[1.820848] (-) TimerEvent: {}
+[1.921963] (-) TimerEvent: {}
+[2.023251] (-) TimerEvent: {}
+[2.124414] (-) TimerEvent: {}
+[2.225017] (-) TimerEvent: {}
+[2.325405] (-) TimerEvent: {}
+[2.426474] (-) TimerEvent: {}
+[2.527018] (-) TimerEvent: {}
+[2.628294] (-) TimerEvent: {}
+[2.730104] (-) TimerEvent: {}
+[2.832043] (-) TimerEvent: {}
+[2.933964] (-) TimerEvent: {}
+[3.035832] (-) TimerEvent: {}
+[3.137666] (-) TimerEvent: {}
+[3.238229] (-) TimerEvent: {}
+[3.339459] (-) TimerEvent: {}
+[3.440748] (-) TimerEvent: {}
+[3.542006] (-) TimerEvent: {}
+[3.642611] (-) TimerEvent: {}
+[3.658818] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[3.742871] (-) TimerEvent: {}
+[3.843287] (-) TimerEvent: {}
+[3.878599] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[3.900469] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[3.944676] (-) TimerEvent: {}
+[4.046447] (-) TimerEvent: {}
+[4.050503] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[4.060504] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[4.061507] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[4.068810] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mahmoud/ros2_ws3/build/cpp_srvcli'], 'cwd': '/home/mahmoud/ros2_ws3/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mahmoud'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mahmoud'), ('OLDPWD', '/home/mahmoud'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahmoud'), ('NAME', 'DESKTOP-I22T2P2'), ('WSL_INTEROP', '/run/WSL/315_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mahmoud/.cargo/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/Pthyon_Install/Installtion/Scripts/:/mnt/d/Pthyon_Install/Installtion/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Golden-Tech/Downloads/curl-8.7.1_7-win64-mingw/curl-8.7.1_7-win64-mingw/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/learn-in-depth/learn-in-depth_AutosarConfigurator_setup:/mnt/c/Users/Golden-Tech/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Golden-Tech/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS_Install/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mahmoud/ros2_ws3/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.076752] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.077753] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[4.078755] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[4.079243] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[4.079894] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[4.080621] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[4.081247] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[4.081870] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[4.082271] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[4.082626] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[4.082981] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[4.083296] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[4.083712] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[4.084167] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[4.084883] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[4.085199] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[4.085751] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[4.086061] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[4.086401] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[4.086721] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[4.088416] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[4.106876] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[4.108191] (-) EventReactorShutdown: {}

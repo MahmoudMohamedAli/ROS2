@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b6b9158758d0df32f2d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_srvcli_threeints",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "client_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_3-313133d432fe2c30d717.json",
+					"name" : "client_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_srvcli_threeints_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_srvcli_threeints_uninstall-c82835dbe5c36609a8dc.json",
+					"name" : "cpp_srvcli_threeints_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server_3-c5dd69d75dabe5398862.json",
+					"name" : "server_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-80ecb92d2b591a0459b9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints",
+		"source" : "/home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

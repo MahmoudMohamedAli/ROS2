@@ -1,0 +1,4 @@
+source;share/CPP_SrvClient_FourInts/local_setup.bash
+source;share/CPP_SrvClient_FourInts/local_setup.dsv
+source;share/CPP_SrvClient_FourInts/local_setup.sh
+source;share/CPP_SrvClient_FourInts/local_setup.zsh

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target client_4[0m
+[35m[1mConsolidate compiler generated dependencies of target server_4[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/server_4.dir/src/add_four_ints_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client_4.dir/src/add_four_ints_client.cpp.o[0m

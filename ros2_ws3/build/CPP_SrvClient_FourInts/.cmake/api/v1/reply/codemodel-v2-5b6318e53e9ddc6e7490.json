@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f12beb1713008b1898b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CPP_SrvClient_FourInts",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CPP_SrvClient_FourInts_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPP_SrvClient_FourInts_uninstall-35497cc866b96279ae00.json",
+					"name" : "CPP_SrvClient_FourInts_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_4-12f13761551597ea23fd.json",
+					"name" : "client_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server_4-f5f8e14667be320072ed.json",
+					"name" : "server_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a0fe09669f5c273409ec.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts",
+		"source" : "/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

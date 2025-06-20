@@ -1,0 +1,30 @@
+[0.013s] Invoking command in '/home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target client_4[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target server_4[0m
+[0.064s] [ 50%] Built target client_4
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/server_4.dir/src/add_four_ints_server.cpp.o[0m
+[3.390s] [100%] [32m[1mLinking CXX executable server_4[0m
+[3.550s] [100%] Built target server_4
+[3.560s] Invoked command in '/home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts -- -j12 -l12
+[3.570s] Invoking command in '/home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts
+[3.577s] -- Install configuration: ""
+[3.579s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/lib/CPP_SrvClient_FourInts/server_4
+[3.580s] -- Set runtime path of "/home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/lib/CPP_SrvClient_FourInts/server_4" to ""
+[3.580s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/lib/CPP_SrvClient_FourInts/client_4
+[3.581s] -- Set runtime path of "/home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/lib/CPP_SrvClient_FourInts/client_4" to ""
+[3.581s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/ament_index/resource_index/package_run_dependencies/CPP_SrvClient_FourInts
+[3.582s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/ament_index/resource_index/parent_prefix_path/CPP_SrvClient_FourInts
+[3.583s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/environment/ament_prefix_path.sh
+[3.583s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/environment/ament_prefix_path.dsv
+[3.584s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/environment/path.sh
+[3.584s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/environment/path.dsv
+[3.584s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/local_setup.bash
+[3.585s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/local_setup.sh
+[3.585s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/local_setup.zsh
+[3.585s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/local_setup.dsv
+[3.586s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/package.dsv
+[3.586s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/ament_index/resource_index/packages/CPP_SrvClient_FourInts
+[3.586s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/cmake/CPP_SrvClient_FourIntsConfig.cmake
+[3.587s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/cmake/CPP_SrvClient_FourIntsConfig-version.cmake
+[3.587s] -- Installing: /home/mahmoud/ros2_ws3/install/CPP_SrvClient_FourInts/share/CPP_SrvClient_FourInts/package.xml
+[3.589s] Invoked command in '/home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts

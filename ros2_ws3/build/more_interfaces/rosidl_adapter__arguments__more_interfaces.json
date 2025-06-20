@@ -1,0 +1,6 @@
+{
+  "package_name": "more_interfaces",
+  "non_idl_tuples": [
+    "/home/mahmoud/ros2_ws3/src/more_interfaces:msg/AddressBook.msg"
+  ]
+}

@@ -1,0 +1,6 @@
+Invoking command in '/home/mahmoud/ros2_ws3/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mahmoud/ros2_ws3/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/mahmoud/ros2_ws3/install/cpp_pubsub
+Invoked command in '/home/mahmoud/ros2_ws3/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mahmoud/ros2_ws3/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/mahmoud/ros2_ws3/install/cpp_pubsub
+Invoking command in '/home/mahmoud/ros2_ws3/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/cpp_pubsub -- -j12 -l12
+Invoked command in '/home/mahmoud/ros2_ws3/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/cpp_pubsub -- -j12 -l12
+Invoking command in '/home/mahmoud/ros2_ws3/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahmoud/ros2_ws3/build/cpp_pubsub
+Invoked command in '/home/mahmoud/ros2_ws3/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahmoud/ros2_ws3/build/cpp_pubsub
