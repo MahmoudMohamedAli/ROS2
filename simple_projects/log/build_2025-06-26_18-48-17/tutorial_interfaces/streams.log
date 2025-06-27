@@ -1,0 +1,6 @@
+[0.074s] Invoking command in '/home/mahmoud/Desktop/ROS2/ros2_ws3/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/Desktop/ROS2/ros2_ws3/build/tutorial_interfaces -- -j2 -l2
+[0.342s] [0mCMake Error: The current CMakeCache.txt directory /home/mahmoud/Desktop/ROS2/ros2_ws3/build/tutorial_interfaces/CMakeCache.txt is different than the directory /home/mahmoud/ros2_ws3/build/tutorial_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.425s] [0mCMake Error: The source directory "/home/mahmoud/ros2_ws3/src/tutorial_interfaces" does not exist.
+[0.426s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.440s] gmake: *** [Makefile:1395: cmake_check_build_system] Error 1
+[0.450s] Invoked command in '/home/mahmoud/Desktop/ROS2/ros2_ws3/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/Desktop/ROS2/ros2_ws3/build/tutorial_interfaces -- -j2 -l2

@@ -1,0 +1,1 @@
+Invoking command in '/home/mahmoud/ros2_ws3/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/tutorial_interfaces -- -j12 -l12

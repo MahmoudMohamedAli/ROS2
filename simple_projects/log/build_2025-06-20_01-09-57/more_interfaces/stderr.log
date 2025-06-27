@@ -1,0 +1,8 @@
+[01m[K/home/mahmoud/ros2_ws3/src/more_interfaces/src/subscriber_address_book.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/address_book.hpp: No such file or directory
+   19 | #include [01;31m[K"more_interfaces/msg/address_book.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/subscriber_address_book.dir/build.make:76: CMakeFiles/subscriber_address_book.dir/src/subscriber_address_book.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:621: CMakeFiles/subscriber_address_book.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

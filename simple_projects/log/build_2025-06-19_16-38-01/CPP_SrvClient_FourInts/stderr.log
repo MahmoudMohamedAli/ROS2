@@ -1,0 +1,106 @@
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:7:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_four_ints[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’; did you mean ‘[01m[KAddFourInts[m[K’?
+    7 |   const std::shared_ptr<tutorial_interfaces::srv::[01;31m[Kadd_four_ints[m[K::Request> request,
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                   [32m[KAddFourInts[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:7:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |   const std::shared_ptr<tutorial_interfaces::srv::add_four_ints::Request[01;31m[K>[m[K request,
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:7:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_four_ints[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’; did you mean ‘[01m[KAddFourInts[m[K’?
+    7 |   const std::shared_ptr<tutorial_interfaces::srv::[01;31m[Kadd_four_ints[m[K::Request> request,
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                   [32m[KAddFourInts[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:7:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |   const std::shared_ptr<tutorial_interfaces::srv::add_four_ints::Request[01;31m[K>[m[K request,
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:7:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_four_ints[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’; did you mean ‘[01m[KAddFourInts[m[K’?
+    7 |   const std::shared_ptr<tutorial_interfaces::srv::[01;31m[Kadd_four_ints[m[K::Request> request,
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                   [32m[KAddFourInts[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:7:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |   const std::shared_ptr<tutorial_interfaces::srv::add_four_ints::Request[01;31m[K>[m[K request,
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:7:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+    7 |   const [01;31m[Kstd[m[K::shared_ptr<tutorial_interfaces::srv::add_four_ints::Request> request,
+      |         [01;31m[K^~~[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:7:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_four_ints[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’; did you mean ‘[01m[KAddFourInts[m[K’?
+    7 |   const std::shared_ptr<tutorial_interfaces::srv::[01;31m[Kadd_four_ints[m[K::Request> request,
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                   [32m[KAddFourInts[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:6:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Khandle_add_four_ints[m[K’ declared void
+    6 | void [01;31m[Khandle_add_four_ints[m[K(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:7:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+    7 |   [01;31m[Kconst[m[K std::shared_ptr<tutorial_interfaces::srv::add_four_ints::Request> request,
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:8:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_four_ints[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’; did you mean ‘[01m[KAddFourInts[m[K’?
+    8 |   std::shared_ptr<tutorial_interfaces::srv::[01;31m[Kadd_four_ints[m[K::Response> response)
+      |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                             [32m[KAddFourInts[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:8:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |   std::shared_ptr<tutorial_interfaces::srv::add_four_ints::Response[01;31m[K>[m[K response)
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:21:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_four_ints[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’; did you mean ‘[01m[KAddFourInts[m[K’?
+   21 |   auto service = node->create_service<tutorial_interfaces::srv::[01;31m[Kadd_four_ints[m[K>(
+      |                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                 [32m[KAddFourInts[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:19:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   19 |       argv[1] = [01;35m[K"1"[m[K;
+      |                 [01;35m[K^~~[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:20:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   20 |       argv[2] = [01;35m[K"2"[m[K;
+      |                 [01;35m[K^~~[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:21:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   21 |       argv[3] = [01;35m[K"3"[m[K;
+      |                 [01;35m[K^~~[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:22:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   22 |       argv[4] = [01;35m[K"4"[m[K;
+      |                 [01;35m[K^~~[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:27:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_four_ints[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’; did you mean ‘[01m[KAddFourInts[m[K’?
+   27 |   auto client = node->create_client<tutorial_interfaces::srv::[01;31m[Kadd_four_ints[m[K>("add_four_ints");
+      |                                                               [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                               [32m[KAddFourInts[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:27:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_client<<expression error> >(const char [14])[m[K’
+   27 |   auto client = [01;31m[Knode->create_client<tutorial_interfaces::srv::add_four_ints>("add_four_ints")[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:27:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |   auto client = [01;31m[Knode->create_client<tutorial_interfaces::srv::add_four_ints>("add_four_ints")[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:29:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kadd_four_ints[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::srv[m[K’; did you mean ‘[01m[KAddFourInts[m[K’?
+   29 |   auto request = std::make_shared<tutorial_interfaces::srv::[01;31m[Kadd_four_ints[m[K::Request>();
+      |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                             [32m[KAddFourInts[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:29:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   29 |   auto request = std::[01;31m[Kmake_shared<tutorial_interfaces::srv::add_four_ints::Request>[m[K();
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:29:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   29 |   auto request = [01;31m[Kstd::make_shared<tutorial_interfaces::srv::add_four_ints::Request>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_client.cpp:29:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |   auto request = [01;31m[Kstd::make_shared<tutorial_interfaces::srv::add_four_ints::Request>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/mahmoud/ros2_ws3/src/CPP_SrvClient_FourInts/src/add_four_ints_server.cpp:22:23:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_add_four_ints[m[K’ was not declared in this scope
+   22 |     "add_four_ints", &[01;31m[Khandle_add_four_ints[m[K);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/server_4.dir/build.make:76: CMakeFiles/server_4.dir/src/add_four_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server_4.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/client_4.dir/build.make:76: CMakeFiles/client_4.dir/src/add_four_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client_4.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

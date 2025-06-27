@@ -1,0 +1,11 @@
+[0.017s] Invoking command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/cpp_srvcli -- -j12 -l12
+[0.109s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.113s] [ 75%] Built target client
+[0.142s] [01m[K/home/mahmoud/ros2_ws3/src/cpp_srvcli/src/add_two_ints_server.cpp:1:9:[m[K [01;31m[Kfatal error: [m[Krcclcpp/rclcpp.hpp: No such file or directory
+[0.142s]     1 | #include[01;31m[K"rcclcpp/rclcpp.hpp"[m[K
+[0.142s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.142s] compilation terminated.
+[0.144s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[0.144s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[0.144s] gmake: *** [Makefile:146: all] Error 2
+[0.147s] Invoked command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/cpp_srvcli -- -j12 -l12

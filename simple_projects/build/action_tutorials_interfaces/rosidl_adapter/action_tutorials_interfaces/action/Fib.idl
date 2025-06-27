@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_tutorials_interfaces/action/Fib.action
+// generated code does not contain a copyright notice
+
+
+module action_tutorials_interfaces {
+  module action {
+    struct Fib_Goal {
+      int32 order;
+    };
+    struct Fib_Result {
+      sequence<int32> sequence;
+    };
+    struct Fib_Feedback {
+      sequence<int32> partial_sequence;
+    };
+  };
+};

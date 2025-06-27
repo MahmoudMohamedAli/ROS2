@@ -1,0 +1,375 @@
+[0.000000] (-) TimerEvent: {}
+[0.000269] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000316] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000331] (-) JobUnselected: {'identifier': 'cpp_srvcli_threeints'}
+[0.000361] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000375] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.012155] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.013742] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/mahmoud/ros2_ws3/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/mahmoud/ros2_ws3/install/tutorial_interfaces'], 'cwd': '/home/mahmoud/ros2_ws3/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mahmoud'), ('GIT_ASKPASS', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahmoud'), ('OLDPWD', '/home/mahmoud/ros2_ws3/src'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-421d5c5e-5ff8-4897-a0d9-16dccb6e4200.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahmoud'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/513_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/home/mahmoud/.cargo/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/Pthyon_Install/Installtion/Scripts/:/mnt/d/Pthyon_Install/Installtion/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Golden-Tech/Downloads/curl-8.7.1_7-win64-mingw/curl-8.7.1_7-win64-mingw/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/learn-in-depth/learn-in-depth_AutosarConfigurator_setup:/mnt/c/Users/Golden-Tech/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Golden-Tech/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS_Install/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/mahmoud/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f3bf5f19e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mahmoud/ros2_ws3/build/tutorial_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099704] (-) TimerEvent: {}
+[0.200087] (-) TimerEvent: {}
+[0.259831] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300179] (-) TimerEvent: {}
+[0.400497] (-) TimerEvent: {}
+[0.501457] (-) TimerEvent: {}
+[0.602171] (-) TimerEvent: {}
+[0.620460] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.702329] (-) TimerEvent: {}
+[0.802658] (-) TimerEvent: {}
+[0.833011] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.902858] (-) TimerEvent: {}
+[0.946576] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.952679] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.954681] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.956540] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.962298] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.003064] (-) TimerEvent: {}
+[1.083657] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.089787] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.090022] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.090386] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.103275] (-) TimerEvent: {}
+[1.105837] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.203479] (-) TimerEvent: {}
+[1.236199] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.303968] (-) TimerEvent: {}
+[1.344803] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.404105] (-) TimerEvent: {}
+[1.469896] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.475776] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.486198] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.503880] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.504183] (-) TimerEvent: {}
+[1.525490] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.578532] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.604880] (-) TimerEvent: {}
+[1.705908] (-) TimerEvent: {}
+[1.806852] (-) TimerEvent: {}
+[1.852129] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.907045] (-) TimerEvent: {}
+[2.007422] (-) TimerEvent: {}
+[2.107806] (-) TimerEvent: {}
+[2.208232] (-) TimerEvent: {}
+[2.210065] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.309018] (-) TimerEvent: {}
+[2.345498] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.409641] (-) TimerEvent: {}
+[2.438035] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.439964] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.510525] (-) TimerEvent: {}
+[2.611568] (-) TimerEvent: {}
+[2.697263] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.697510] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.697567] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.697616] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.712038] (-) TimerEvent: {}
+[2.714132] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.793442] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.812488] (-) TimerEvent: {}
+[2.822143] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.825269] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.830362] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.881364] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.891757] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/mahmoud/ros2_ws3/build/tutorial_interfaces\n'}
+[2.900221] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[2.900542] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[2.900587] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mahmoud/ros2_ws3/build/tutorial_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/mahmoud/ros2_ws3/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mahmoud'), ('GIT_ASKPASS', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahmoud'), ('OLDPWD', '/home/mahmoud/ros2_ws3/src'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-421d5c5e-5ff8-4897-a0d9-16dccb6e4200.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahmoud'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/513_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/home/mahmoud/.cargo/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/Pthyon_Install/Installtion/Scripts/:/mnt/d/Pthyon_Install/Installtion/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Golden-Tech/Downloads/curl-8.7.1_7-win64-mingw/curl-8.7.1_7-win64-mingw/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/learn-in-depth/learn-in-depth_AutosarConfigurator_setup:/mnt/c/Users/Golden-Tech/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Golden-Tech/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS_Install/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/mahmoud/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f3bf5f19e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mahmoud/ros2_ws3/build/tutorial_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.912661] (-) TimerEvent: {}
+[2.931406] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.941008] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.949679] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[3.012841] (-) TimerEvent: {}
+[3.113193] (-) TimerEvent: {}
+[3.174162] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.174850] (tutorial_interfaces) StdoutLine: {'line': b'creating tutorial_interfaces.egg-info\n'}
+[3.175370] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[3.175628] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[3.175719] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[3.175950] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[3.178287] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[3.178767] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[3.201651] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[3.213351] (-) TimerEvent: {}
+[3.285815] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target tutorial_interfaces__cpp\n'}
+[3.294848] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.295063] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.295197] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.313587] (-) TimerEvent: {}
+[3.329748] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[3.331745] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[3.331921] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[3.413767] (-) TimerEvent: {}
+[3.417767] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.497917] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[3.507397] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.507623] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.507928] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.513929] (-) TimerEvent: {}
+[3.585009] (tutorial_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[3.585223] (tutorial_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.585327] (tutorial_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.614266] (-) TimerEvent: {}
+[3.648622] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.648914] (tutorial_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[3.649034] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.662011] (tutorial_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.662966] (tutorial_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[3.663932] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.715783] (-) TimerEvent: {}
+[3.816228] (-) TimerEvent: {}
+[3.916582] (-) TimerEvent: {}
+[3.952312] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[4.004147] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.016732] (-) TimerEvent: {}
+[4.046294] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.075965] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[4.088733] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[4.100308] (tutorial_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[4.100586] (tutorial_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.100721] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[4.108890] (tutorial_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.116870] (-) TimerEvent: {}
+[4.129577] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[4.157529] (tutorial_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[4.188015] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.217038] (-) TimerEvent: {}
+[4.252544] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[4.302999] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[4.317448] (-) TimerEvent: {}
+[4.331583] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.338467] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.352786] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.417597] (-) TimerEvent: {}
+[4.460898] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.486815] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.517825] (-) TimerEvent: {}
+[4.599020] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.618337] (-) TimerEvent: {}
+[4.710008] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.718525] (-) TimerEvent: {}
+[4.725691] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces\n'}
+[4.750441] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.818877] (-) TimerEvent: {}
+[4.919262] (-) TimerEvent: {}
+[5.019740] (-) TimerEvent: {}
+[5.120137] (-) TimerEvent: {}
+[5.209324] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__py\n'}
+[5.220278] (-) TimerEvent: {}
+[5.224765] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[5.225131] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[5.225479] (tutorial_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[5.320470] (-) TimerEvent: {}
+[5.360879] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[5.420651] (-) TimerEvent: {}
+[5.461458] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[5.478565] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.478717] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.478783] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.520813] (-) TimerEvent: {}
+[5.571946] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.572144] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.572248] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.620948] (-) TimerEvent: {}
+[5.641650] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.641819] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.641882] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.653548] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[5.653928] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[5.661135] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mahmoud/ros2_ws3/build/tutorial_interfaces'], 'cwd': '/home/mahmoud/ros2_ws3/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mahmoud'), ('GIT_ASKPASS', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mahmoud'), ('OLDPWD', '/home/mahmoud/ros2_ws3/src'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-421d5c5e-5ff8-4897-a0d9-16dccb6e4200.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mahmoud'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/513_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mahmoud/.vscode-server/bin/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/home/mahmoud/.cargo/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/d/Pthyon_Install/Installtion/Scripts/:/mnt/d/Pthyon_Install/Installtion/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Golden-Tech/Downloads/curl-8.7.1_7-win64-mingw/curl-8.7.1_7-win64-mingw/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/learn-in-depth/learn-in-depth_AutosarConfigurator_setup:/mnt/c/Users/Golden-Tech/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Golden-Tech/AppData/Local/Microsoft/WindowsApps:/mnt/d/VS_Install/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin:/home/mahmoud/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6f3bf5f19e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/mahmoud/ros2_ws3/build/tutorial_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.666605] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.667597] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[5.667811] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.668261] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.668554] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.668732] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[5.668916] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[5.669137] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[5.669216] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[5.669309] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h\n'}
+[5.669492] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.669571] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.669633] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.669765] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[5.669992] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h\n'}
+[5.670243] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[5.670303] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h\n'}
+[5.670395] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c\n'}
+[5.670531] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[5.670752] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[5.670810] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h\n'}
+[5.670875] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h\n'}
+[5.670930] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[5.671178] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[5.671312] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[5.671605] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[5.671849] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[5.672158] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.672230] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.672277] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.672363] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[5.672639] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.672698] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.672745] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[5.672884] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[5.673030] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.673229] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.673484] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.673564] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.673703] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.673839] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[5.673987] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.674183] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp\n'}
+[5.674323] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[5.674460] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[5.674596] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[5.674732] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.674868] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.675026] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[5.675162] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[5.675411] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp\n'}
+[5.675462] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp\n'}
+[5.675578] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.hpp\n'}
+[5.675781] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp\n'}
+[5.675920] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp\n'}
+[5.676115] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[5.676282] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[5.676420] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.676557] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp\n'}
+[5.676693] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.676828] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.676974] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.677111] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.677247] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[5.677383] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.677520] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.677656] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.677791] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.677994] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.678319] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[5.678443] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.678610] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.678748] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.678885] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.679029] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.679166] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[5.679301] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[5.679437] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.679573] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.679709] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[5.679922] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[5.679978] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c\n'}
+[5.680158] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[5.680334] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.680461] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.680613] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.680880] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[5.681051] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.681153] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.681261] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.681356] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.681438] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.681515] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[5.681590] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.681690] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.681769] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.681885] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[5.682033] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.682172] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[5.682504] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.682688] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.682907] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.683130] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.683364] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[5.683518] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[5.683661] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[5.683800] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.684035] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.684183] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.684326] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.684462] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[5.684611] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.684659] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[5.684704] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[5.684748] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[5.684792] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[5.684836] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[5.684879] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.684922] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.684966] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.685009] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.685075] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[5.685126] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[5.685171] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[5.685214] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py\n'}
+[5.685258] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[5.685301] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py\n'}
+[5.685354] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c\n'}
+[5.685398] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.714914] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[5.715039] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[5.715098] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[5.715145] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...\n"}
+[5.715192] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...\n"}
+[5.715235] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py'...\n"}
+[5.715277] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[5.715318] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[5.715360] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py'...\n"}
+[5.719457] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.719798] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.720043] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.720368] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.720577] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.720829] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.720904] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[5.720952] (-) TimerEvent: {}
+[5.721279] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/mahmoud/ros2_ws3/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[5.721587] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[5.721837] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl\n'}
+[5.722093] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[5.722446] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[5.722657] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg\n'}
+[5.722874] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[5.723131] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[5.723304] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[5.723673] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[5.723939] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[5.724193] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[5.724471] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.724818] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[5.724997] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[5.725109] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[5.725369] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[5.725439] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[5.725489] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[5.725534] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[5.725686] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[5.725970] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.726188] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.726432] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.726508] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.726671] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.726829] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.727099] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.727171] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.727281] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.727551] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.727731] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.728086] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.728204] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.728300] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.728582] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.728757] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.728844] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.729166] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.729365] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.729495] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.729683] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.729990] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.730131] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.730362] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.730492] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[5.730625] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[5.730814] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/mahmoud/ros2_ws3/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[5.734423] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[5.758931] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[5.759718] (-) EventReactorShutdown: {}

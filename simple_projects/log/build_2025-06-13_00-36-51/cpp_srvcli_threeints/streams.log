@@ -1,0 +1,26 @@
+[0.063s] Invoking command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints -- -j12 -l12
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target server_3[0m
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target client_3[0m
+[0.110s] [100%] Built target server_3
+[0.110s] [100%] Built target client_3
+[0.123s] Invoked command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints -- -j12 -l12
+[0.130s] Invoking command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints
+[0.136s] -- Install configuration: ""
+[0.136s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/lib/cpp_srvcli_threeints/server_3
+[0.136s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/lib/cpp_srvcli_threeints/client_3
+[0.136s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli_threeints
+[0.136s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli_threeints
+[0.137s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/environment/ament_prefix_path.sh
+[0.137s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/environment/ament_prefix_path.dsv
+[0.137s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/environment/path.sh
+[0.137s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/environment/path.dsv
+[0.137s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/local_setup.bash
+[0.137s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/local_setup.sh
+[0.138s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/local_setup.zsh
+[0.138s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/local_setup.dsv
+[0.138s] -- Installing: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/package.dsv
+[0.138s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/ament_index/resource_index/packages/cpp_srvcli_threeints
+[0.138s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/cmake/cpp_srvcli_threeintsConfig.cmake
+[0.138s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/cmake/cpp_srvcli_threeintsConfig-version.cmake
+[0.138s] -- Up-to-date: /home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints/share/cpp_srvcli_threeints/package.xml
+[0.139s] Invoked command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints

@@ -1,0 +1,2 @@
+Invoking command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints -DCMAKE_INSTALL_PREFIX=/home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints
+Invoked command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mahmoud/ros2_ws3/src/cpp_srvcli_threeints -DCMAKE_INSTALL_PREFIX=/home/mahmoud/ros2_ws3/install/cpp_srvcli_threeints

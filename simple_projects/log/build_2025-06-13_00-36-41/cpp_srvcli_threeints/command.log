@@ -1,0 +1,4 @@
+Invoking command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints -- -j12 -l12
+Invoked command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints -- -j12 -l12
+Invoking command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints
+Invoked command in '/home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mahmoud/ros2_ws3/build/cpp_srvcli_threeints

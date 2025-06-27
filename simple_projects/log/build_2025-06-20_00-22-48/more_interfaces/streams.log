@@ -1,0 +1,34 @@
+[0.035s] Invoking command in '/home/mahmoud/ros2_ws3/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/more_interfaces -- -j12 -l12
+[0.098s] [  8%] Built target more_interfaces__cpp
+[0.098s] [ 11%] Built target more_interfaces__rosidl_generator_c
+[0.101s] [ 14%] [32mBuilding CXX object CMakeFiles/subscriber_address_book.dir/src/subscriber_address_book.cpp.o[0m
+[0.126s] [ 14%] Built target ament_cmake_python_copy_more_interfaces
+[0.140s] [ 22%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.141s] [ 31%] Built target more_interfaces__rosidl_typesupport_c
+[0.141s] [ 40%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.155s] [ 48%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.156s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.170s] [ 65%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.194s] [ 65%] Built target more_interfaces
+[0.200s] [ 71%] Built target publish_address_book
+[0.220s] [ 74%] Built target more_interfaces__py
+[0.251s] [ 80%] Built target more_interfaces__rosidl_generator_py
+[0.283s] [ 85%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.284s] [ 91%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.286s] [ 97%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.384s] [01m[K/home/mahmoud/ros2_ws3/src/more_interfaces/src/subscriber_address_book.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kmore_interfaces/msg/address_book.hpp: No such file or directory
+[0.384s]    19 | #include [01;31m[K"more_interfaces/msg/address_book.hpp"[m[K
+[0.384s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.384s] compilation terminated.
+[0.386s] gmake[2]: *** [CMakeFiles/subscriber_address_book.dir/build.make:76: CMakeFiles/subscriber_address_book.dir/src/subscriber_address_book.cpp.o] Error 1
+[0.387s] gmake[1]: *** [CMakeFiles/Makefile2:621: CMakeFiles/subscriber_address_book.dir/all] Error 2
+[0.387s] gmake[1]: *** Waiting for unfinished jobs....
+[0.440s] running egg_info
+[0.441s] writing more_interfaces.egg-info/PKG-INFO
+[0.441s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.442s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.443s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.444s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.475s] [ 97%] Built target ament_cmake_python_build_more_interfaces_egg
+[0.476s] gmake: *** [Makefile:146: all] Error 2
+[0.478s] Invoked command in '/home/mahmoud/ros2_ws3/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/more_interfaces -- -j12 -l12

@@ -1,0 +1,2 @@
+Invoking command in '/home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts -- -j12 -l12
+Invoked command in '/home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahmoud/ros2_ws3/build/CPP_SrvClient_FourInts -- -j12 -l12
